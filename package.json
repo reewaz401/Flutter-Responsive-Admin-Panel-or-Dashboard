@@ -1,0 +1,27 @@
+{
+  "name": "flutter-responsive-admin-panel-or-dashboard",
+  "version": "1.0.0",
+  "description": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section --> [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-) <!-- ALL-CONTRIBUTORS-BADGE:END -->",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abuanwar072/Flutter-Responsive-Admin-Panel-or-Dashboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abuanwar072/Flutter-Responsive-Admin-Panel-or-Dashboard/issues"
+  },
+  "homepage": "https://github.com/abuanwar072/Flutter-Responsive-Admin-Panel-or-Dashboard#readme",
+  "dependencies": {
+    "xlsx": "^0.17.5"
+  }
+}

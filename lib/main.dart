@@ -1,6 +1,9 @@
 import 'package:admin/constants.dart';
 import 'package:admin/controllers/MenuController.dart';
+import 'package:admin/models/screenProvider.dart';
 import 'package:admin/screens/main/main_screen.dart';
+import 'package:admin/utils/mainInit/initRoute.dart';
+import 'package:admin/utils/mainInit/onGenerate_route.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
@@ -27,9 +30,15 @@ class MyApp extends StatelessWidget {
           ChangeNotifierProvider(
             create: (context) => MenuController(),
           ),
+          ChangeNotifierProvider(
+            create: (context) => ScreenProvider(),
+          ),
         ],
         child: MainScreen(),
       ),
+      //initialRoute: '/mainScreen',
+      onGenerateRoute: onGenerateRoute,
+      routes: initRoute(context),
     );
   }
 }
